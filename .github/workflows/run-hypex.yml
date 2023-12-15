@@ -18,5 +18,5 @@ jobs:
           wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
           chmod +x hyperexecute
           echo "Performing test"
-          ./hyperexecute --user mohammadk --key rakcBoBYHiy8BW7osVi4N1LGYjgJhRfAwvL1pPUvwCA1wfNChd --config yaml/win/cucumber_hyperexecute_autosplit_sample.yaml --download-artifacts --force-clean-artifacts
+          ./hyperexecute --user mohammadk --key gkrzT0iFKjDjehXpMTznxM1lHIZXSYjV3H8Ntk0s2rCUJJO3WU --config yaml/win/cucumber_hyperexecute_autosplit_sample.yaml --download-artifacts --force-clean-artifacts
           echo "Test completion!"
